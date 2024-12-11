@@ -1,4 +1,5 @@
 # Add to this file for the sample app lab
+#toe te voegen datum en tijd
 from flask import Flask
 from flask import request
 from flask import render_template

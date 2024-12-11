@@ -8,6 +8,7 @@ cleanup() {
 }
 trap cleanup EXIT
 python3 -m venv flask_venv
+sleep 15
 source flask_venv/bin/activate
 git clone https://github.com/AdamAouinaChaoui/flask24
 cd flask24/
